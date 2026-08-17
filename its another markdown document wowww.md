@@ -19,24 +19,35 @@
 
 ## Swot Analysis
 Good News for Bad Times:
-![news](eye_mages/News)
+![news](eye_mages/News.png)
 
-![the images dont work](eye_mages/SwAGNFB2)
+![the images dont work](eye_mages/SwAGNFB2.png)
 
 HSC Subject Customiser:
-![tions](eye_mages/SwAHSC1)
+![tions](eye_mages/SwAHSC1.png)
 
 Reccomendations Idea:
-![recommenda](eye_mages/SwARec1)
+![recommenda](eye_mages/SwARec1.png)
 
 Stop Procrastinating:
-![procrastination 2](eye_mages/SwAStop1)
+![procrastination 2](eye_mages/SwAStop1.png)
 
-![procrastination 1](eye_mages/SwAStop1)
+![procrastination 1](eye_mages/SwAStop1.png)
 
-I've decided to move forward with the idea of
+Humour Idea:
+![funni](eye_mages/YAAY.png)
+
+Wiki Idea:
+![ot](eye_mage/THEYWORKNOW.png)
+
+
+I've decided to move forward with the idea of the HSC Customiser as it's a useful, high impact idea with a clear target audience that could use it well. It should be relatively easy to simply use the information on the government sites, and make a good website to host it with some simple code. I and others could use this to either play around with or make serious decisions well.
 
 ## Requirements Outline
+
+### Functional Requirements
+The website will be able to provide information about subjects, and the primary feature will be a menu containing hsc subjects with some data about them, that users will be able to 
+### Non-Functional Requirements
 
 # *Researching and Planning*
 ### Explore Existing Ideas
