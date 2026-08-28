@@ -83,8 +83,11 @@ The site should contain entirely factual information, ideally sourced from offic
 | Youtube | The home screen shows the variety of topics and feeds of videos that you can watch, making it easy to access your history, playlists, watch later etc. The video watching UI is clean and well-made, with the video being the obvious focus but also containing convenient other recomendations for further viewing, the easily accessible comments section, and detail about the video are all useful and intuitive for users, making the viewing experience positive. | The site forces shorts into the home feeds of long form viewers, a fact which only alienates some users. The algorithmic focus of the site, while great for capturing attention, is annoying for users who want to find specific videos by specific creators.| Youtube is a site that has great influence as the monopoly of internet video, and as such it's traits can be taken into account for this project. It would be good for me to put the primary feature of the site front and centre, and have other things easily accessible at the sides, though it's also immportant to not bloat the site with things other than the primary use.|
 ### Secondary Research
 https://hscscalinggraphs.au/
+https://data.nsw.gov.au/data/dataset/nsw-education-course-enrolments-in-year-11-and-year-12-subjects-in-nsw-government-schools
 https://www.nsw.gov.au/education-and-training/nesa/hsc/facts-and-figures/performance-bands
-https://www.nsw.gov.au/education-and-training/nesa/hsc/facts-and-figures/enrolment-data/courses
+https://www.sydney.edu.au/arts/study/undergraduate-courses/hsc-subjects-and-majors.html
+
+A few things I noticed in my research were that many subjects have  I think the best way this resource can be used is to influence students to make subject choices they are least likel
 ### Primary Research
 
 ### UI / UX Design
