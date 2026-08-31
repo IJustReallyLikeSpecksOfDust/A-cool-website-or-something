@@ -87,11 +87,26 @@ https://data.nsw.gov.au/data/dataset/nsw-education-course-enrolments-in-year-11-
 https://www.nsw.gov.au/education-and-training/nesa/hsc/facts-and-figures/performance-bands
 https://www.sydney.edu.au/arts/study/undergraduate-courses/hsc-subjects-and-majors.html
 
-A few things I noticed in my research were that many subjects have  I think the best way this resource can be used is to influence students to make subject choices they are least likel
+One thing I noticed in my research were that many subjects have surprisingly high rates of dropping from year 11-12. Generally a common range i saw was about 20-33% of students dropping any given subject, a number which I find startlingly high. I think the best way this resource can be used is to influence students to make subject choices they are least likely to regret or waste time with dropping. I think that the most useful data on subjects should be made easily accessible, that data being for instance: The ATARs, the enjoyment, the student counts, etc. There is also useful information to be gained. Moving forward, my project's focus should be to have my app be comprehensive with all of the data that could be relevant, and to have that data easily accessible. *NOT DONE ADD ANOTHER PARAGRAPH
+
 ### Primary Research
+
+Survey Results (Qualitative):
+
+Q: If you picked low on that scale (how much research did you conduct before picking subjects), please briefly say why.
+
+A:
+* I just picked what was to my interest
+* I didn't feel like I need to research that much because I already had an idea of what the subjects involved
+* I was lazy
+* Couldn't be bothered. Also where?
+* Couldnt be bothered
 
 ### UI / UX Design
 
 ### Prototype
 
 # *Producing and Implementing*
+
+
+NEXT TO DO: Wireframes x2, site map
