@@ -44,7 +44,7 @@
 
 **Wiki Idea:**
 
-![ot](eye_mage/THEYWORKNOW.png)
+![ot](eye_mages/THEYWORKNOW.png)
 
 
 I've decided to move forward with the idea of the HSC Customiser as it's a useful, high impact idea with a clear target audience that could use it well. It should be relatively easy to simply use the information on the government sites, and make a good website to host it with some simple code. I and others could use this to either play around with or make serious decisions well.
@@ -87,7 +87,9 @@ https://data.nsw.gov.au/data/dataset/nsw-education-course-enrolments-in-year-11-
 https://www.nsw.gov.au/education-and-training/nesa/hsc/facts-and-figures/performance-bands
 https://www.sydney.edu.au/arts/study/undergraduate-courses/hsc-subjects-and-majors.html
 
-One thing I noticed in my research were that many subjects have surprisingly high rates of dropping from year 11-12. Generally a common range i saw was about 20-33% of students dropping any given subject, a number which I find startlingly high. I think the best way this resource can be used is to influence students to make subject choices they are least likely to regret or waste time with dropping. I think that the most useful data on subjects should be made easily accessible, that data being for instance: The ATARs, the enjoyment, the student counts, etc. There is also useful information to be gained. Moving forward, my project's focus should be to have my app be comprehensive with all of the data that could be relevant, and to have that data easily accessible. *NOT DONE ADD ANOTHER PARAGRAPH
+One thing I noticed in my research were that many subjects have surprisingly high rates of dropping from year 11-12. Generally a common range i saw was about 20-33% of students dropping any given subject, a number which I find startlingly high. I think the best way this resource can be used is to influence students to make subject choices they are least likely to regret or waste time with dropping. 
+
+I think that the most useful data on subjects should be made easily accessible, that data being for instance: The ATARs, the enjoyment, the student counts, etc. There is also useful information to be gained. Moving forward, my project's focus should be to have my app be comprehensive with all of the data that could be relevant, and to have that data easily accessible.
 
 ### Primary Research
 
@@ -102,7 +104,24 @@ A:
 * Couldn't be bothered. Also where?
 * Couldnt be bothered
 
+
+What the primary research has showed mainly is that many students' biggest issue when attempting to research is typically 'laziness'. Theoretically, making the site accessible and incredibly easy to use should assist with this, as it should provide helpful information and results with minimal effort.
+
+Another thing showed by respondant data is the wide range of confidence about decisions. This is not ideal, as whilst a majority felt fairly confident, it was not a small minority that picked 1 or 2 out of 5 for confidence. Most of these people also picked low on the amount of research they did, and similar is true for those who picked high, and so this proves that the goal should be to make it easier to do good research.
+
 ### UI / UX Design
+#### Wireframes
+
+* Subject Picker Input:
+![boop](Wireframes/SubjectPickerChoiceWireframe.png)
+
+* Subject Picker Output:
+![boop](Wireframes/SubjectPickerResultsWireframe.png)
+
+* Subject List (Searching):
+![boop](Wireframes/SubjectListWireframe.png)
+
+#### Site Map
 
 ### Prototype
 
