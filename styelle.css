@@ -5,15 +5,25 @@ html{
 }
 
 body{
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(65, 4, 4);
     margin: 0;
     padding: 0;
     margin-inline: center;
     align-items: center;
     width: 100vw;
     min-height: 100vh;
+    background: linear-gradient(to right, 
+        white    20%, 
+        grey  20%, 
+        grey  40%, 
+        grey  40%, 
+        grey   60%, 
+        grey 60%, 
+        grey 80%, 
+        white 80%,
+        white 100%
+     );
 }
-
 h1{
     color:rgb(61, 61, 194);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -59,8 +69,7 @@ nav ul {
 .grid.container{
 
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #111223;
+    grid-template-columns: 1fr 1fr 1fr; 
     padding: 10px;
 }
 
@@ -88,11 +97,10 @@ nav ul {
 
 .item3{
     background-color: rgb(165, 136, 92);
-    border: 1px solid rgba(0,67,0,0.69);
     padding: 16px;
     font-size: 32px;
     justify-content: center;
     align-content: center;
-    text-align: right;
-    grid-column: span 3;
+    text-align: center;
 }
+
