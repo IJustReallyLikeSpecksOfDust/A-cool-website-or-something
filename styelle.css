@@ -1,7 +1,7 @@
 /* make sure to comment on all or most of thes l8r maxi*/
 
 html{
-    background: white;
+    background-image: url("eye_mages/bggradient.jpg");
 }
 
 body{
@@ -11,16 +11,16 @@ body{
     align-items: center;
     width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(to right, 
-        rgb(236, 236, 236) 15%, 
+    background: linear-gradient(to right, /*this is oddly complicated, referenced a stack overflow answer to use gradients for multiple solid color backgrounds */
+        rgba(236, 236, 236,0) 15%, 
         rgb(204, 204, 204)  15%, 
         rgb(204, 204, 204)  40%, 
         rgb(204, 204, 204)  40%, 
         rgb(204, 204, 204)   60%, 
         rgb(204, 204, 204) 60%, 
         rgb(204, 204, 204) 85%, 
-        rgb(236, 236, 236) 85%,
-        rgb(236, 236, 236) 100%
+        rgba(236, 236, 236,0) 85%,
+        rgba(236, 236, 236,0) 100%
      );
 }
 h1{
@@ -30,6 +30,7 @@ h1{
     text-align: center;
     padding: 10px;
     margin: 15px;
+    margin-top: 30px;
 }
 
 h4{
@@ -54,6 +55,8 @@ ul {
   margin: 0;
   padding: 0;
   font-size: 25px;
+  position: fixed;
+  min-width: 100%;
 }
 
 p{
@@ -70,30 +73,47 @@ nav ul {
     padding: 20;
 }
 
-.button {
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 15px 120px;
+  text-decoration: none;
+}
+ul li b {
+  display: block;
+  color: red;
+  padding: 15px 120px;
+  text-decoration: none;
+}
+.button { /*taken from w3schools and modified for visuals*/
   background-color: rgb(95, 137, 199);
   border: none;
   color: white;
-  padding: 32px 32px;
+  padding: 24px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
-}
-
-
-.grid.container{
-
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    padding: 10px;
+  border-radius: 25px;
 }
 
 .item{
     background-color: rgb(214, 214, 213);
     margin-left: 15%;
     margin-right: 15%;
+    border-top: 3px solid darkcyan;
     padding: 18px;
     justify-content: center;
     align-content: center;
@@ -102,10 +122,11 @@ nav ul {
 }
 
 .item2{
-    background-color: blanchedalmond;
-    border: 1px solid rgba(0,67,0,0.69);
+    background-color: rgb(204,204,204);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-top: 3px solid darkcyan;
     padding: 18px;
-    font-size: 32px;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -113,11 +134,10 @@ nav ul {
 }
 
 .item3{
-    background-color: rgb(165, 136, 92);
+    background-color: rgb(204,204,204);
     padding: 16px;
     font-size: 32px;
     justify-content: center;
     align-content: center;
     text-align: center;
 }
-

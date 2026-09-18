@@ -5,38 +5,28 @@
     <link rel="stylesheet" href="styelle.css">
   </head>
 <body>
+    <!--Below is used to make a 4-by x grid. Here and not in the css as other grids won't be 4-by-x.-->
 <style>
-body {
-  margin: 0;
-  padding: 0;
+  
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgb(66, 117, 168);
+  border: rgb(36, 36, 36);
+  padding: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-
-h2, p {
+.grid div {
+  background-color: #f1f1f1;
+  color: rgb(49, 107, 129);
+  border: 2px solid darkgrey;
+  padding: 10px;
+  font-size: 23px;
+  font-family: 'Trebuchet MS';
+  text-align: center;
   margin: 10px;
-}
-
-ul {
-  background-color: #333333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-ul li a {
-  display: block;
-  color: white;
-  padding: 15px 120px;
-  text-decoration: none;
-}
-ul li b {
-  display: block;
-  color: red;
-  padding: 15px 120px;
-  text-decoration: none;
-}
-
-
-
+}  
 </style>
 </head>
 <body>
@@ -47,25 +37,36 @@ ul li b {
   <li><a href="list.html">Subject List</a></li>
   <li><b href="about.html">About</b></li>
 </ul>
-
+<br>
 <h1>About</h1>
-  <h4>Uncopyrighted - Maxi 2026-2026</h4>
-
-<h6>Yoooo this isnt the actual about section. give me time itll be peak fr. YEEEEEEEEEE
-</h6>
-<body>
-  <div class="grid-container">
-        <div class="item3">
-        <hr>
-        <h3>For victims of attacks by short blonde GHS students.</h3>
-        <p>Violent creatures roam the halls of Gosford, looking to berate or attack anyone who ragebaits them... </br></br> (It's funny tho.) </p>
-        <a href="http://www.sniffapaloozamagazine.com/JULIETSTEWARTINTERVIEW.html">Here is some found footage of one of the creatures.</p> </a>
-        <hr>
-        <img src="images/childjuliet.jpg", alt="It has only grown in power since this photograph." >
-        <h3> It has only grown in power (not height) since this photograph was taken.</h3>
-        <hr>
-        </div>
-    <div class="button"></div>
-    </div>
+<div class="grid">
+  <div>What is this site?
+  <p>This site hosts a tool which can help you make HSC decisions by seeing information and statistics about different possible patterns of study.</p>
+  </div>
+  <div>What can I use it for?
+  <p>The primary intent for the selector is to help you make your decisions, though you can use it for anything you want to do, such as playing around with random ideas or judging your friends' choices.</p>
+  </div>
+  <div>How do I use it?
+  <p>This information was already on the homepage. Simply click on the subjects to add them to your selection, then when your done see the statistics about it.</p>
+  </div>  
+  <div>Why make this?
+  <p>Information about HSC subject combinations interested me, as while singular subjects have a variety easily available, specific patterns of study aren't usually focused on. Also, it's an assessment.</p>
+  </div>
+  <div>Will this tell me what to choose?
+  <p>Nope! No online resource can make important decisions for you, and this site is only intended to assist in one of these decisions by providing information in an interesting way.</p>
+  </div>
+  <div>Where can I see the statistics?
+  <p>Go to the 'Subject List' tab to view all information used in the site. Linked there are also related sites and sources, including the original dataset used for the site. </p>
+  </div>
+  <div>Why are some subjects not included?
+  <p>Most subjects with under 500 yearly students were removed for their rarity, though there was some leniency with Languages and Extensions.</p>
+  </div>  
+  <div>Can I save my selections?
+  <p>Why yes, and you're in the right place! Simply sign up or log in below and you can save selections to reference or change later.</p>
+  </div>
+</div>
+<div class="item">
+  <h6>Done reading? How about you:</h6> <br>
+  <a href="picker.html" class="button">Try it Out</a> <p>or</p> <a href="about.html" class="button">Sign Up</a>  
 </body>
 </html>
