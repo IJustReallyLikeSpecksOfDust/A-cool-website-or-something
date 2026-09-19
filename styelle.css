@@ -107,6 +107,7 @@ ul li b {
   font-size: 25px;
   cursor: pointer;
   border-radius: 25px;
+  &:hover{background-color: blue;} /*&:hover used to change the element on hovering. found this from a reddit question from 10 years ago, an eternal source of information.*/
 }
 
 .item{
@@ -135,6 +136,8 @@ ul li b {
 
 .item3{
     background-color: rgb(204,204,204);
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 16px;
     font-size: 32px;
     justify-content: center;

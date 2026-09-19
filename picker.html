@@ -3,6 +3,16 @@
   <head>
     <title>Subject Picker</title>
     <link rel="stylesheet" href="styelle.css">
+    <script>
+    /*I expect to be writing quite a few functions here and for organisations sake they should all stay up here. */
+    const userData = ["munchlax","snorlax","chungus"];
+    const login = confirm("Do you want to log in?");
+    if (!login) {
+    alert("Alright, maybe next time!");
+}
+    else{const username = prompt("Please input your username: ").toLowerCase();}
+
+    </script>
   </head>
 <body>
 <style>
@@ -19,7 +29,13 @@
 <br> <!--used to make the text be below to top bar. -->
 <h1>Subject Picker</h1>
   <h4>Uncopyrighted - Maxi 2026-2026</h4>
-<p>This is a paragraph.</p>
+<div class="item3">
+  <p id="demo"></p>
 
+<script>
+const subjectss = ["English Advanced","Maths Advanced","Modern History","Ancient History"];
+document.getElementById("demo").innerHTML = subjectss[2];
+</script>
+</div>
 </body>
 </html>
