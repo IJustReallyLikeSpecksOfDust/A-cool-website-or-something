@@ -3,7 +3,6 @@
   <head>
     <title>HSC Subject Picker</title>
     <link rel="stylesheet" href="styelle.css">
-    <link rel= href="coursedata.csv">
     <link rel="icon" href="eye_mages/parodylogo.ico" type="image/x-icon">
   </head>
 <body>
@@ -62,5 +61,25 @@
     <h2>Units: 2 - Area: Humanities - Dropout %: __</h2>
   </div>
 </div>
+
+<p>below here should be some agriculture data if my test worked.</p>
+
+<p id="test"></p>
+<script>
+async function loadJSON() {
+  const response = await fetch("agdata.json");
+  const ag = await response.json();
+  myDisplayer(ag.name);
+  myDisplayer(ag.units);
+}
+
+loadJSON();
+
+function myDisplayer(text) {
+  document.getElementById("test").innerHTML += text + "<br>";
+}
+
+subject = json.parse
+</script>
 </body>
 </html>

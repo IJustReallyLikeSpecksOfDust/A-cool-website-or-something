@@ -65,4 +65,5 @@ Textiles and Design,2,93,1085,1179,59,811,872,TAS,No,26
 Vietnamese Continuers,2,85,110,195,99,112,211,Languages,No,-
 Visual Arts,2,1817,4967,6795,1307,3933,5260,Crative,No,25
 ,,,,,,,
-"Course enrolments in Preliminary and HSC subjects in NSW government schools, 2025",,,,,,,
+As it turns out, javascript works better with JavaScript Object Notation (a full acronym that I just learnt), than csvs. Who would'a thunk it? So there is a complete copy of this csv by the same name, except it's a json.
+This csv was converted into that json using https://csvjson.com/. I was not going to do it manually, that would be asinine.
