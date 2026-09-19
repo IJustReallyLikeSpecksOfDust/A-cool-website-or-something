@@ -1,110 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>HSC Subject Picker</title>
-    <link rel="stylesheet" href="styelle.css">
-    <script>
-        function showform(event){
-    document.getElementById("signupform").style.display = "inline"; /*show the form */
-  }
-    </script>
-  </head>
-<body>
-    <!--Below is used to make a 4-by x grid. Here and not in the css as other grids won't be 4-by-x.-->
-<style>
-  
-.grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: rgb(66, 117, 168);
-  border: rgb(36, 36, 36);
-  padding: 10px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.grid div {
-  background-color: #f1f1f1;
-  color: rgb(49, 107, 129);
-  border: 2px solid darkgrey;
-  padding: 10px;
-  font-size: 23px;
-  font-family: 'Trebuchet MS';
-  text-align: center;
-  margin: 10px;
-}  
-</style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 
-<ul>
-  <li><a href="hscpickersite.html">Home</a></li>
-  <li><a href="picker.html">Subject Picker</a></li>
-  <li><a href="list.html">Subject List</a></li>
-  <li><b href="about.html">About</b></li>
-</ul>
-<br>
-<h1>About</h1>
-<div class="grid">
-  <div>What is this site?
-  <p>This site hosts a tool which can help you make HSC decisions by seeing information and statistics about different possible patterns of study.</p>
+<div data-role="page" id="pageone">
+  <div data-role="main" class="ui-content">
+    <h2>Subject List</h2>
+    <form class="ui-filterable">
+      <input id="myFilter" data-type="search" placeholder="Search for names..">
+    </form>
+    <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
+      <li><a href="#">Adele</a></li>
+      <li><a href="#">Agnes</a></li>
+      <li><a href="#">Albert</a></li>
+      <li><a href="#">Billy</a></li>
+      <li><a href="#">Bob</a></li>
+      <li><a href="#">Calvin</a></li>
+      <li><a href="#">Cameron</a></li>
+      <li><a href="#">Chloe</a></li>
+      <li><a href="#">Christina</a></li>
+      <li><a href="#">Diana</a></li>
+      <li><a href="#">Gabriel</a></li>
+      <li><a href="#">Glen</a></li>
+      <li><a href="#">Ralph</a></li>
+      <li><a href="#">Valarie</a></li>
+    </ul>
   </div>
-  <div>What can I use it for?
-  <p>The primary intent for the selector is to help you make your decisions, though you can use it for anything you want to do, such as playing around with random ideas or judging your friends' choices.</p>
-  </div>
-  <div>How do I use it?
-  <p>This information was already on the homepage. Simply click on the subjects to add them to your selection, then when your done see the statistics about it.</p>
-  </div>  
-  <div>Why make this?
-  <p>Information about HSC subject combinations interested me, as while singular subjects have a variety easily available, specific patterns of study aren't usually focused on. Also, it's an assessment.</p>
-  </div>
-  <div>Will this tell me what to choose?
-  <p>Nope! No online resource can make important decisions for you, and this site is only intended to assist in one of these decisions by providing information in an interesting way.</p>
-  </div>
-  <div>Where can I see the statistics?
-  <p>Go to the 'Subject List' tab to view all information used in the site. Linked there are also related sites and sources, including the original dataset used for the site. </p>
-  </div>
-  <div>Why are some subjects not included?
-  <p>Most subjects with under 500 yearly students were removed for their rarity, though there was some leniency with Languages and Extensions.</p>
-  </div>  
-  <div>Can I save my selections?
-  <p>Why yes, and you're in the right place! Simply sign up or log in below and you can save selections to reference or change later.</p>
-  </div>
-</div>
+</div> 
 
-
-<div class="item">
-  <h6>Done reading? How about you:</h6> <br>
-  <a href="picker.html" class="button">Try it Out</a> <p>or</p> <a href="about.html" class="button">Sign Up</a>  <a href="about.html" class="button">Login</a>
-  <button type="button" onclick=showform()>Sign Up</button>
-  <form>
-
-  <div id="signupform">
-    <h1>Sign Up</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-
-    <label for="name"><b>Username</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
-    </div>
-  </div>
-
-  <script>
-  /*document.getElementById("signupform").style.display = "none"; /*makes the form be hidden by default */ 
-  function showform(event){
-    document.getElementById("signupform").style.display = "inline"; /*show the form */
-  }
-  </script>
-  </form>
-</div>  
 </body>
 </html>
