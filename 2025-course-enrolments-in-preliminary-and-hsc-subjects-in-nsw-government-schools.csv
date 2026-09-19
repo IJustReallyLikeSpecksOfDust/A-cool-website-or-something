@@ -1,21 +1,13 @@
-Course Name,Units,Preliminary_Boys,Preliminary_Girls,Preliminary_Total,HSC_Boys,HSC_Girls,HSC_Total
-Aboriginal Studies,2,265,538,804,191,428,619
-Agriculture,2,652,527,1179,341,418,759
-Ancient History,2,2888,3620,6514,2037,2616,4663
-Arabic Continuers,2,37,62,99,53,77,130
-Biology,2,5268,9182,14461,4043,7102,11155
-Business Services,2,580,821,1401,362,684,1046
-Business Services Examination,2,,,,247,556,803
-Business Studies,2,7455,5982,13440,5449,4424,9875
-Chemistry,2,4094,3948,8046,3004,2760,5768
-Chinese and Literature,2,169,176,345,79,93,172
-Chinese Beginners,2,21,42,63,13,31,44
-Chinese Continuers,2,82,115,197,66,98,165
-Chinese Extension,1,,,,9,26,35
-Chinese in Context,2,23,33,56,21,35,56
-Citizenship and Legal Studies Life Skills,2,28,13,41,28,13,41
-Classical Greek Continuers,2,,,,1,,1
-Community and Family Studies,2,964,7087,8055,546,5089,5637
+Course Name,Units,Preliminary_Boys,Preliminary_Girls,Preliminary_Total,HSC_Boys,HSC_Girls,HSC_Total,Area,
+Aboriginal Studies,2,265,538,804,191,428,619,Humanities
+Agriculture,2,652,527,1179,341,418,759,TAS
+Ancient History,2,2888,3620,6514,2037,2616,4663,Humanities
+Biology,2,5268,9182,14461,4043,7102,11155,Science
+Business Services,2,580,821,1401,362,684,1046,Humanities
+Business Studies,2,7455,5982,13440,5449,4424,9875,Humanities
+Chemistry,2,4094,3948,8046,3004,2760,5768,Science
+Chinese Continuers,2,82,115,197,66,98,165,Languages
+Community and Family Studies,2,964,7087,8055,546,5089,5637,I dont know lmao
 Community and Family Studies Life Skills,2,108,109,217,82,79,161
 Computing Technology Life Skills,2,50,18,68,23,6,29
 Construction,2,3008,282,3290,1789,193,1982

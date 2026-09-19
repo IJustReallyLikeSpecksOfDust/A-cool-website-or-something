@@ -5,13 +5,25 @@
     <link rel="stylesheet" href="styelle.css">
     <script>
     /*I expect to be writing quite a few functions here and for organisations sake they should all stay up here. */
-    const userData = ["munchlax","snorlax","chungus"];
-    const login = confirm("Do you want to log in?");
-    if (!login) {
+    alert("Welcome to the login page");
+
+const userData = ["munchlax", "joko", "joki"];
+const login = confirm("Do you want to log in?");
+
+if (login) {
+    const username = prompt("Please input your username: ").toLowerCase();
+    function trylogin(username) {
+        for (let i = 0; i < userData.length; i++) {
+            if (username === userData[i]) {
+                return alert(`Login success! Welcome, ${username}`);
+            }
+        }
+        alert("Login failed, please register.");
+    }
+    trylogin(username);
+} else {
     alert("Alright, maybe next time!");
 }
-    else{const username = prompt("Please input your username: ").toLowerCase();}
-
     </script>
   </head>
 <body>
