@@ -37,7 +37,7 @@ h2{
     color: rgb(87, 87, 87);
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    font-size: 28px;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -45,7 +45,7 @@ h3{
     color: rgb(26, 148, 185);
     font-family: 'Courier New', Courier, monospace;
     align-self: center;
-    font-size: 40px;
+    font-size: 23px;
     margin: 0;
     padding: 10px;
     margin-left: 5px;
@@ -98,6 +98,8 @@ p{
     text-align: center;
     font-family: 'Trebuchet MS';
     font-size: 22px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -116,6 +118,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 10%;
 }
 
 ul li a {
@@ -126,27 +129,37 @@ ul li a {
 }
 ul li b {
   display: block;
-  color: red;
+  color: rgb(196, 0, 0);
   padding: 15px 120px;
   text-decoration: none;
 }
 .button { /*taken from w3schools and modified for visuals*/
   background-color: rgb(95, 137, 199);
-  border: none;
   color: white;
   padding: 24px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 25px;
   cursor: pointer;
-  border-radius: 25px;
-  &:hover{background-color: blue;} /*&:hover used to change the element on hovering. found this from a reddit question from 10 years ago, an eternal source of information.*/
+  border-radius: 20px; /*makes the border curved and nice looking.
+  &:hover{background-color: rgb(52, 52, 255);} /*&:hover used to change the element on hovering. going to point out that i found this from a reddit question from 10 years ago, an eternal source of information.*/
 }
 
-.item{
+.button2 { /* for when the other button looks bad */
+  background-color: rgb(157, 157, 157);
+  color: rgb(51, 49, 72);
+  padding: 14px 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Gill Sans';
+  font-size: 23px;
+  cursor: pointer;
+  &:hover{background-color: rgb(182, 182, 214);}
+}
+
+.item{ /* item classes are used for miscellaneous formatting throughout the site. They're all almost the same aside from said formatting. */
     background-color: rgb(214, 214, 213);
-    margin-left: 15%;
+    margin-left: 15%; /* because the site is designed to have content in the middle, the item classes have margins left and right to keep their divs in there. */
     margin-right: 15%;
     border-top: 3px solid darkcyan;
     padding: 18px;
@@ -179,6 +192,17 @@ ul li b {
     text-align: center;
 }
 
+.item4{ /* this exists to fix formatting at the bottom of list */
+    background-color: rgb(184, 210, 214);
+    border-top: #333333;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 16px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
 .modal{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -196,7 +220,7 @@ ul li b {
 .modal-content {
     background-color: #d8dbfd;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 5%;
     width: 80%;
     padding: 30px;
     border: none;
