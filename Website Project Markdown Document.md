@@ -135,11 +135,34 @@ The prototype is included as an XD file 'Picker Prototype' within this repositor
 ![boop](eye_mages/prototypescr1.png) ![boop](eye_mages/prototypescr4.png)
 ![boop](eye_mages/prototypescr2.png) ![boop](eye_mages/prototypescr3.png)
 
-# *Producing and Implementing*
-
 
 # *Testing and Evaluating*
 
 ### Peer Evaluation
 
-The subject selection planner is a thought out, highly detailed website with easy access to official department sites. It is highly user friendly, with good user experience. It is easy to understand, simple, and has extensive knowledge on each HSC subject available. The homepage is easy to understand, gives a good and brief overview of the website and is visually appealing. The subject picker has a clear and easy to understand list of subjects with all of the information on each course. The subjects lit provides good insight into the meaning behind each statistic. Finally, the about page is comprised of a useful set of answers, with each point being distinct and easy to view thanks to the layout. Overall, the colours are easy to understand, the layout of the site is good, and it is an effective tool. Overall, the Subject Picker website has good functionality, in depth information, and is highly user friendly. - Juliet
+"The subject selection planner is a thought out, highly detailed website with easy access to official department sites. It is highly user friendly, with good user experience. It is easy to understand, simple, and has extensive knowledge on each HSC subject available. The homepage is easy to understand, gives a good and brief overview of the website and is visually appealing. The subject picker has a clear and easy to understand list of subjects with all of the information on each course. The subjects lit provides good insight into the meaning behind each statistic. Finally, the about page is comprised of a useful set of answers, with each point being distinct and easy to view thanks to the layout. Overall, the colours are easy to understand, the layout of the site is good, and it is an effective tool. Overall, the Subject Picker website has good functionality, in depth information, and is highly user friendly." - Juliet
+
+
+### Social, Ethical and Legal Issue Evaluation
+
+The project aimed to tackle the small but common social issue of students having difficult decisions to make in their HSC. Whilst not aiming to eliminate that issue, as such would be impossible for a 3rd-party tool, the way it turned out can assist with decision making.
+
+There are no ethical concerns about the site, unless you are a 12 year old who objects the existence of education. The site is relatively simple and therefore has no real ethical concerns. The site provides accurate information, and if such wasn't true there could be cause for concern.
+
+The site uses government data primarily, and that is, as far as I know, available for this sort of use. There is an 'Uncopyrighted' satire heading at the top of each page, which may have some bearing on legal evaluation, but probably not, as it is a joke. Generally there is nothing related to law on the site other than Legal Studies.
+
+### Project Evaluation
+
+I have a problem with these projects, where after completing one I become overly casual and uncaring about the subject for far too long, get behind, and then have to crunch immensely in the last few days to catch up. Given that I am finalising this at in an AM hour, on the due date, one can judge that this trend continued with this project. One could even say that it has reached it's worst, given that I have been forced to leave intended features out because of time. Though, in that regard I'd judge my scope, as aiming to create such a functional program with a programming language I knew nothing about at the time was perhaps a poor decision. Management could've been better, is what I'm saying.
+
+Though, at least in terms of the final product's meeting of requirements, I would say it did quite well, especially given the requirements were made with no idea of what I could realistically achieve with css/html/javascript.
+* The site provides adequate information to help users learn about subjects.
+* Links are provided for every subject in the list.
+* The subject picker results are not as in depth as originally hoped, but still provide some information.
+
+* The site's UI and UX are both easy to understand, and the top bar linking to each page makes it very easy to navigate. The simplicity makes the UI understandable.
+*  The visuals are not astounding, they are servicably appealing for usage. The site uses a mostly blue and grey colour palette with little contrast to keep attention on the text and features.
+* The site loads effectively instantly. One slight note is the background gradient, being an image, sometimes loads a couple milliseconds after the rest of the site, which looks slightly odd.
+* Factuality wise, everything is simply taken from the official Department of Information statistics, so the site is sufficiently factual. Though, the dataset I used was from 2020, and I didn't realise that until late into the development process. This is probably the biggest issue with the site.
+
+The HSC Subject Picker site could, if released have a positive impact on the decision-making of the target market of high schoolers. It's ease of use and simple-but-effective functionality would be helpful to myself and others from a few months ago, so I would consider it a success in that way. Generally I am satisfied with the project, even if it has some flaws.

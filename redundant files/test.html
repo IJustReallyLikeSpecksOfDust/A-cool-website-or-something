@@ -57,7 +57,7 @@
 <body>
 
 <ul>
-  <li><a href="hscpickersite.html">Home</a></li>
+  <li><a href="HSC_Picker_Site.html">Home</a></li>
   <li><b href="picker.html">Subject Picker</b></li>
   <li><a href="list.html">Subject List</a></li>
   <li><a href="about.html">About</a></li>
@@ -115,10 +115,10 @@
     <h3>Engineering Studies</h3> <button class ='button4' onclick="subjectchanger('Engineering Studies',2,2831,'TAAS',32)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>English Extension 1</h3> <button class ='button4' onclick="subjectchanger('English Extension 1',1,2831,'English',)">Pick this Subject</button>
+    <h3>English Extension 1</h3> <button class ='button4' onclick="subjectchanger('English Extension 1',2,2831,'English',)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>English Extension 2</h3> <button class ='button4' onclick="subjectchanger('English Extension 2',1,2831,'English',)">Pick this Subject</button>
+    <h3>English Extension 2</h3> <button class ='button4' onclick="subjectchanger('English Extension 2',2,2831,'English',)">Pick this Subject</button>
   </div>
   <div class="subject">
     <h3>Enterprise Computing</h3> <button class ='button4' onclick="subjectchanger('Enterprise Computing',2,2831,'Humanities',14)">Pick this Subject</button>
@@ -148,7 +148,7 @@
     <h3>Health and Movement Science</h3> <button class ='button4' onclick="subjectchanger('Health and Movement Science',2,2831,'PDHPE',)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>History Extension</h3> <button class ='button4' onclick="subjectchanger('History Extension',1,2831,'Humanities',)">Pick this Subject</button>
+    <h3>History Extension</h3> <button class ='button4' onclick="subjectchanger('History Extension',2,2831,'Humanities',)">Pick this Subject</button>
   </div>
   <div class="subject">
     <h3>Hospitality</h3> <button class ='button4' onclick="subjectchanger('Hospitality',2,2831,'VET',31)">Pick this Subject</button>
@@ -169,7 +169,7 @@
     <h3>Japanese Continuers</h3> <button class ='button4' onclick="subjectchanger('Japanese Continuers',2,2831,'Languages',25)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>Japanese Extension</h3> <button class ='button4' onclick="subjectchanger('Japanese Extension',1,2831,'Languages',)">Pick this Subject</button>
+    <h3>Japanese Extension</h3> <button class ='button4' onclick="subjectchanger('Japanese Extension',2,2831,'Languages',)">Pick this Subject</button>
   </div>
   <div class="subject">
     <h3>Korean Beginners</h3> <button class ='button4' onclick="subjectchanger('Korean Beginners',2,2831,'Languages',29)">Pick this Subject</button>
@@ -181,10 +181,10 @@
     <h3>Legal Studies</h3> <button class ='button4' onclick="subjectchanger('Legal Studies',2,2831,'Humanities',32)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>Mathematics Extension 1</h3> <button class ='button4' onclick="subjectchanger('Mathematics Extension 1',1,2831,'Maths',)">Pick this Subject</button>
+    <h3>Mathematics Extension 1</h3> <button class ='button4' onclick="subjectchanger('Mathematics Extension 1',2,2831,'Maths',)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>Mathematics Extension 2</h3> <button class ='button4' onclick="subjectchanger('Mathematics Extension 2',1,2831,'Maths',27)">Pick this Subject</button>
+    <h3>Mathematics Extension 2</h3> <button class ='button4' onclick="subjectchanger('Mathematics Extension 2',2,2831,'Maths',27)">Pick this Subject</button>
   </div>
   <div class="subject">
     <h3>Mathematics Standard</h3> <button class ='button4' onclick="subjectchanger('Mathematics Standard',2,2831,'Maths',27)">Pick this Subject</button>
@@ -214,7 +214,7 @@
     <h3> Retail Services</h3> <button class ='button4' onclick="subjectchanger('Retail Services',2,2831,'VET',27)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>Science Extension</h3> <button class ='button4' onclick="subjectchanger('Science Extension',1,2831,'Science',27)">Pick this Subject</button>
+    <h3>Science Extension</h3> <button class ='button4' onclick="subjectchanger('Science Extension',2,2831,'Science',27)">Pick this Subject</button>
   </div>
   <div class="subject">
     <h3>Society and Culture</h3> <button class ='button4' onclick="subjectchanger('Society and Culture',2,2831,'Humanities',27)">Pick this Subject</button>
@@ -321,18 +321,11 @@
         </div>
       </div>
       <hr>
-      <p id="unitcounter">Your total number of units:</p>
-      <p>Of those, you have:</p>
-      <p id='engid'>2 English Units (Mandatory)</p>
-      <p id='matid' style="display: none;">glitch</p>
-      <p id='sciid' style="display: none;">glitch</p>
-      <p id='humid' style="display: none;">glitch</p>
-      <p id='vetid' style="display: none;">glitch</p>
-      <p id='tasid' style="display: none;">glitch</p>
-      <p id='creid' style="display: none;">glitch</p>
-      <p id='lanid' style="display: none;">glitch</p>
-      <p id='pdhid' style="display: none;">glitch</p>
-      <p>Sadly, there is nothing more here. There would've been averages of some stats, but alas.</p>
+      <p>Unit Count:</p>
+      <p>Unit Divisons: </p> <p id='udid1'>-</p>
+      <p>Avg. Students:</p>
+      <p>Avg. Drop Rate:</p>
+
     </div>
   </form>
 </div>
@@ -342,14 +335,7 @@
 
 </div>
 
-
 <script>
-/* Lengthy comment in picker.html GO
-Well, this did not turn out ideally. I am proud of the overall site, and I am proud of the js code that is here, and believe that had I managed time just slightly better I could've met my poorly managed scope.
-Alas, that did not happen. The comments on the code here aren't as in depth as I'd hope because I don't have time to elaborate. 
-The results modal was intended to also contain at least averages of your subjects' dropout rate and student count, but I also don't have time to make that. Nor do I have time to finish adding those to the above list.
-I guess I could attempt to do these things, but tbh I want to sleep. And whilst this is meant to be the main attraction of the site, and so it's blemishes are especially dissapointing, I am still proud of the site as a whole.
-Good night. */
 
 /* create a set of variables for each subject slot to use in the below functions */
 var slot2 = document.getElementById("sub2")
@@ -371,137 +357,62 @@ var res7 = document.getElementById("subr7")
 var res8 = document.getElementById("subr8")
 
 /* variables for statistics about the subjects to be used in the results */
-let unitz = document.getElementById('unitcounter')
-let totalunits = 2
-unitz.textContent = totalunits
+let totalunits = 2;
+let engunits = 2;
+let mathunits = 0;
+let sciunits = 0;
+let hsieunits = 0;
+let langunits = 0;
+let vetunits = 0;
+let tasunits = 0;
+let pdhpeunits = 0;
+let creaunits = 0;
 
-/*these variables are for tracking subject area units. i could explain better but its 4am and im consdering this done after this so idc */
-let engu=2; //starts at two since mandatory
-var engitz = document.getElementById('engid')
-let matu=0; // creates the base value to use later
-var matitz = document.getElementById('matid') //variable for the text. first 3 letters + itz as in units
-let sciu=0;
-var sciitz = document.getElementById('sciid')
-let humu=0;
-var humitz = document.getElementById('humid')
-let tasu=0;
-var tasitz = document.getElementById('tasid')
-let creu=0;
-var creitz = document.getElementById('creid')
-let vetu=0;
-var vetitz = document.getElementById('vetid')
-let lanu=0;
-var lanitz = document.getElementById('lanid')
-let pdhu=0;
-var pdhitz = document.getElementById('pdhid')
+/*yeah*/
+var var1 = document.getElementById("udid1")
 
 /*tba*/
 
-function subjectchanger(subName, subUnits, students, subArea, droprate) {
-
-  if (slot2.textContent == '-') {
+function subjectchanger(subName,units,students,area,droprate){
+global
+  if (slot2.textContent == '-'){
     slot2.textContent = subName;
     res2.textContent = subName;
   }
-  else if (slot3.textContent == '-') {
+  else if (slot3.textContent == '-'){
     slot3.textContent = subName;
     res3.textContent = subName;
   }
-  else if (slot4.textContent == '-') {
+  else if (slot4.textContent == '-'){
     slot4.textContent = subName;
     res4.textContent = subName;
   }
-  else if (slot5.textContent == '-') {
+  else if (slot5.textContent == '-'){
     slot5.textContent = subName;
     res5.textContent = subName;
   }
-  else if (slot6.textContent == '-') {
+  else if (slot6.textContent == '-'){
     slot6.textContent = subName;
     res6.textContent = subName;
   }
-  else if (slot7.textContent == '-') {
+  else if (slot7.textContent == '-'){
     slot7.textContent = subName;
     res7.textContent = subName;
   }
-  else if (slot8.textContent == '-') {
+  else if (slot8.textContent == '-'){
     slot8.textContent = subName;
     res8.textContent = subName;
   }
-
-  totalunits += subUnits;
-  if (totalunits > 16) { totalunits = 16; }
-  unitz.textContent = 'Your total number of units: ' + totalunits;
-
-  if (subArea === "English") {
-    engu += subUnits;
-    engitz.textContent = engu + ' English Units';
-  }
-  if (subArea === "Maths") {
-    matu += subUnits;
-    matitz.textContent = matu + ' Maths Units';
-    matitz.style.display = '';
-  }
-  if (subArea === "Science") {
-    sciu += subUnits;
-    sciitz.textContent = sciu + ' Science Units';
-    sciitz.style.display = '';
-  }
-  if (subArea === "Humanities") {
-    humu += subUnits;
-    humitz.textContent = humu + ' Humanities Units';
-    humitz.style.display = '';
-  }
-  if (subArea === "TAS") {
-    tasu += subUnits;
-    tasitz.textContent = tasu + ' TAS Units';
-    tasitz.style.display = '';
-  }
-  if (subArea === "VET") {
-    vetu += subUnits;
-    vetitz.textContent = vetu + ' VET Units';
-    vetitz.style.display = '';
-  }
-  if (subArea === "Languages") {
-    lanu += subUnits;
-    lanitz.textContent = lanu + ' Languages Units';
-    lanitz.style.display = '';
-  }
-  if (subArea === "PDHPE") {
-    pdhu += subUnits;
-    pdhitz.textContent = pdhu + ' PDHPE Units';
-    pdhitz.style.display = '';
-  }
-  if (subArea === "Creative") {
-    creu += subUnits;
-    creitz.textContent = creu + ' Creative Units';
-    creitz.style.display = '';
-  }
 }
 
-function remover(num){ 
-if (num == 2){slot2.textContent = '-';
-  res2.textContent = '';}
-if (num == 3){slot3.textContent = '-';
-  res3.textContent = '';}
-if (num == 4){slot4.textContent = '-';
-  res4.textContent = '';}
-if (num == 5){slot5.textContent = '-';
-  res5.textContent = '';}
-if (num == 6){slot6.textContent = '-';
-  res6.textContent = '';}
-if (num == 7){slot7.textContent = '-';
-  res7.textContent = '';}
-if (num == 8){slot8.textContent = '-';
-  res8.textContent = '';}
-//realising my remover method from when i was less sleep deprived doent work with my area unit counting method from when its right now
-creitz.style.display = 'none';
-pdhitz.style.display = 'none';
-matitz.style.display = 'none';
-humitz.style.display = 'none';
-sciitz.style.display = 'none';
-vetitz.style.display = 'none';
-lanitz.style.display = 'none';
-tasitz.style.display = 'none'; // this doesnt fix it it just makes the problem slightly less obvious.
+function remover(num){
+if (num == 2){slot2.textContent = '-';}
+if (num == 3){slot3.textContent = '-';}
+if (num == 4){slot4.textContent = '-';}
+if (num == 5){slot5.textContent = '-';}
+if (num == 6){slot6.textContent = '-';}
+if (num == 7){slot7.textContent = '-';}
+if (num == 8){slot8.textContent = '-';}
 }
 
 function englishtextchanger(engChoice){ /*function used to make choose your english. works differently to all the others because the 3 englishes are hard coded and its worse because I coded it first. */
@@ -539,11 +450,6 @@ window.onclick = function(event) {
   }
 }
 
-
-</script>
-
-
-<script> /* other script section was getting really bloated with functions, so for the results modal there's this one. Should help with organisation.*/
 var modal = document.getElementById('id01');
 
 window.onclick = function(event) {
