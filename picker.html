@@ -6,7 +6,31 @@
     <link rel="icon" href="eye_mages/parodylogo.ico" type="image/x-icon">
   </head>
 <body>
+    <!--Below is used to make a 2-by x grid. Here and not in the css as other grids won't be 2-by-x.-->
 <style>
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: rgb(66, 117, 168);
+  padding: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.grid div {
+  background-color: #f1f1f1;
+  color:darkcyan;
+  text-align: center;
+  padding: 0;
+  font-size: 20px;
+  border: 2px solid darkgrey;
+  padding: 10px;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  margin: 10px;
+}  
+
 </style>
 </head>
 <body>
@@ -20,11 +44,9 @@
 <br> <!--used to make the text be below to top bar. -->
 <h1>Subject Picker</h1>
   <h4>Uncopyrighted - Maxi 2026-2026</h4>
-<div id = 'scrollyid' class="scrollything">
-  <div id = 'scrollyid' class="scrollything">
+<div id = 'scrollyid' class="pickerscrollything">
   <div class="subject">
     <h3>Agriculture</h3>  
-    </h2>
   </div>
   <div class="subject">
     <h3>Ancient History</h3>
@@ -51,7 +73,7 @@
     <h3>Construction</h3> 
   </div>
   <div class="subject">
-    <h3 Dance</h3> 
+    <h3>Dance</h3> 
   </div>
   <div class="subject">
     <h3>Design and Technology</h3> 
@@ -69,7 +91,7 @@
     <h3>Engineering Studies</h3>
   </div>
   <div class="subject">
-    <h3>English (Advanced)></h3>
+    <h3>English (Advanced)</h3>
   </div>
   <div class="subject">
     <h3>English (Standard)</h3> 
@@ -108,7 +130,7 @@
     <h3>German Continuers</h3> 
   </div>
   <div class="subject">
-    <h3>>Health and Movement Science</h3> 
+    <h3>Health and Movement Science</h3> 
   </div>
   <div class="subject">
     <h3>History Extension</h3> 
@@ -156,7 +178,7 @@
     <h3>Mathematics Advanced</h3>
   </div>
   <div class="subject">
-    <h3>>Modern History</h3> 
+    <h3>Modern History</h3> 
   </div>
   <div class="subject">
     <h3>Music 1</h3>
@@ -198,13 +220,142 @@
     <h3>Textiles and Design</h3>
   </div>
   <div class="subject">
-    <h3>Vietnamese Continuers</h3>
+    <h3>Vietnamese Continuers</h3> <button class ='button4' onclick="subjectchanger('Vietnamese Continuers',2,211,'Languages',)">Pick this Subject</button>
   </div>
   <div class="subject">
-    <h3>Visual Arts</h3> 
+    <h3>Visual Arts</h3> <button class ='button4' onclick="subjectchanger('Visual Arts',2,5260,'Creative',25)">Pick this Subject</button>
   </div>
 </div>
 
+<div class="item2">
+  <h4>Your selections:</h4>
+  <div class="grid" style="max-width: 1000px;">
+    <div class="dropdown"> <br>
+      <button onclick="englishselectorfunction()" id="selectenglish" class="dropbtn">Select English</button>
+        <div id="englishselector" class="dropdown-content">
+        <button onclick="englishtextchanger(1)" >English Standard</button>
+        <button onclick="englishtextchanger(2)" >English Advanced</button>
+        <button onclick="englishtextchanger(3)" >English EASL/D</button>
+      </div>
+    </div>
+    <div>
+      <p id="sub2">-</p>
+      <button class='button3' style.display=none onclick="remover(2)">Remove Subject</button>
+    </div>
+    <div>
+      <p id="sub3">-</p>
+      <button class='button3' onclick="remover(3)">Remove Subject</button>
+    </div>
+    <div>
+      <p id="sub4">-</p>
+      <button class='button3' onclick="remover(4)">Remove Subject</button>
+    </div>
+    <div>
+      <p id="sub5">-</p>
+      <button class='button3' onclick="remover(5)">Remove Subject</button>
+    </div>
+    <div>
+      <p id="sub6">-</p>
+      <button class='button3' onclick="remover(6)">Remove Subject</button>
+    </div>
+    <div>
+      <p id="sub7">-</p>
+      <button class='button3' onclick="remover(7)">Remove Subject</button>
+    </div>
+    <div>
+      <p id="sub8">-</p>
+      <button class='button3'onclick="remover(8)">Remove Subject</button>
+    </div>
+  </div>
+  
 </div>
+
+<h4><button class="button" type="button" id="button" onclick="tbd()">Finished!</button></h4>
+<br>
+
+</div>
+<script>
+
+/* create a set of variables for each subject slot to use in the below functions */
+var slot2 = document.getElementById("sub2")
+var slot3 = document.getElementById("sub3")
+var slot4 = document.getElementById("sub4")
+var slot5 = document.getElementById("sub5")
+var slot6 = document.getElementById("sub6")
+var slot7 = document.getElementById("sub7")
+var slot8 = document.getElementById("sub8")
+
+/* variables for statistics about the subjects to be used in the results */
+var totalunits;
+/*tba*/
+
+function subjectchanger(subName,units,students,area,droprate){
+
+  if (slot2.textContent == '-'){
+    slot2.textContent = subName;
+  }
+  else if (slot3.textContent == '-'){
+    slot3.textContent = subName;
+  }
+  else if (slot4.textContent == '-'){
+    slot4.textContent = subName;
+  }
+  else if (slot5.textContent == '-'){
+    slot5.textContent = subName;
+  }
+  else if (slot6.textContent == '-'){
+    slot6.textContent = subName;
+  }
+  else if (slot7.textContent == '-'){
+    slot7.textContent = subName;
+  }
+  else if (slot8.textContent == '-'){
+    slot8.textContent = subName;
+  }
+}
+
+function remover(num){
+if (num == 2){slot2.textContent = '-';}
+if (num == 3){slot3.textContent = '-';}
+if (num == 4){slot4.textContent = '-';}
+if (num == 5){slot5.textContent = '-';}
+if (num == 6){slot6.textContent = '-';}
+if (num == 7){slot7.textContent = '-';}
+if (num == 8){slot8.textContent = '-';}
+}
+
+function englishtextchanger(engChoice){
+  let numba = engChoice;
+  var selectenglish = document.getElementById("selectenglish")
+  if (numba == 1){
+  selectenglish.textContent = 'English Standard';
+  }
+  else if  (numba == 2){
+  selectenglish.textContent = 'English Advanced';
+  }
+  else if  (numba == 3){
+  selectenglish.textContent = 'English EASL/D';
+  }
+}
+
+function englishselectorfunction() {
+  document.getElementById("englishselector").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
 </body>
 </html>

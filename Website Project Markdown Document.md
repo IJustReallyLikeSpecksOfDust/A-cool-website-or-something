@@ -122,10 +122,24 @@ Another thing showed by respondant data is the wide range of confidence about de
 ![boop](Wireframes/SubjectListWireframe.png)
 
 #### Site Map
+![boop](eye_mages/lemap.png)
+
+Fun fact: I forgot to add this until the final day before submission. 
+As it turns out, this one is barely accurate anymore. I decided to create a more recent one in addition to this, for the fun of it.
+
+Pointless updated version:
+![boop](eye_mages/lemaprecent.png)
 
 ### Prototype
+The prototype is included as an XD file 'Picker Prototype' within this repository. Below are some screenshots.
+![boop](eye_mages/prototypescr1.png) ![boop](eye_mages/prototypescr4.png)
+![boop](eye_mages/prototypescr2.png) ![boop](eye_mages/prototypescr3.png)
 
 # *Producing and Implementing*
 
 
-NEXT TO DO: Wireframes x2, site map
+# *Testing and Evaluating*
+
+### Peer Evaluation
+
+The subject selection planner is a thought out, highly detailed website with easy access to official department sites. It is highly user friendly, with good user experience. It is easy to understand, simple, and has extensive knowledge on each HSC subject available. The homepage is easy to understand, gives a good and brief overview of the website and is visually appealing. The subject picker has a clear and easy to understand list of subjects with all of the information on each course. The subjects lit provides good insight into the meaning behind each statistic. Finally, the about page is comprised of a useful set of answers, with each point being distinct and easy to view thanks to the layout. Overall, the colours are easy to understand, the layout of the site is good, and it is an effective tool. Overall, the Subject Picker website has good functionality, in depth information, and is highly user friendly. - Juliet
